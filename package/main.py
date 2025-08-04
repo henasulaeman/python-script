@@ -1,0 +1,1 @@
+from .odul import fisika
