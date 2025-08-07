@@ -5,12 +5,15 @@ data2=[1,4,7,2,4,9]
 #Akses List
 subdata1=data1[1]
 subdata2=data2[-4]
+
 #Memotong List
 subdata3=data1[0:4]
 subdata4=data2[:-2]
+
 #Menambah List
 subdata5=[100,200,300,400,500]
 hasil1=data1+subdata5
+
 #Merubah data dari List
 #hasil2=subdata5[0]=500
 #print(subdata5)
@@ -25,11 +28,14 @@ y=x[1][2]
 #print(x)
 #print(y)
 #method List menggunakan append
-print(data1)
+#print(data1)
 data1.append(50)
-print(data1)
+#print(data1)
 #Function yang bisa kita gunakan kepada list
-panjang_list=len(data1)
-print(panjang_list)
+#panjang_list=len(data1)
+
+
+# Output Program
+print(data1)
 
 

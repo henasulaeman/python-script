@@ -1,1 +1,0 @@
-string="Ini adalah file yang ada di branch coba 2"
