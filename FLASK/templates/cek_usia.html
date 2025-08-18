@@ -1,0 +1,23 @@
+<html>
+<head> 
+<title>Halaman Perhitungan Usia</title>
+</head>
+
+<body>
+<h1>PERHITUNGAN USIA</h1>
+
+<form method="POST" action="/usia">
+
+<label>Input Tahun Lahir</label>
+<input type="number" name="tahun_lahir">
+<input type="submit" value="Hitung Usia !">
+<br>
+
+{% if usia is not none %}
+    <h3>usia anda adalah : {{usia}}</h3>
+{% endif %}
+
+
+</form>
+</body>
+</html>

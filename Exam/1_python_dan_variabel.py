@@ -16,9 +16,3 @@ cek_umur = int(tahun_ini) - int(tahun_lahir)
 print ("Nama:",nama)
 print ("Tanggal Lahir Anda :",tgl_lahir,"",bulan_lahir,"",tahun_lahir)
 print("Anda Sekarang berumur : ",cek_umur)
-
-
-
-#Buat program yang menghitung:
-#Luas persegi panjang (input panjang & lebar)
-#Keliling lingkaran (input jari-jari)
